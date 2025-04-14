@@ -40,7 +40,7 @@ namespace MySecondMVC.Tests.Controllers
 
             // Assert
             Assert.IsNotNull(result);
-            Assert.AreEqual(dummyPeople, result.Model);
+            Assert.That(result.Model, Is.EqualTo(dummyPeople));
         }
 
         [Test]
@@ -73,7 +73,7 @@ namespace MySecondMVC.Tests.Controllers
 
             Assert.IsInstanceOf<RedirectToActionResult>(result);
             var redirect = (RedirectToActionResult)result;
-            Assert.AreEqual("Index", redirect.ActionName);
+            Assert.That(redirect.ActionName, Is.EqualTo("Index"));
         }
 
         [Test]
@@ -85,7 +85,7 @@ namespace MySecondMVC.Tests.Controllers
             var result = _controller.EditPerson(person.Id);
 
             Assert.IsInstanceOf<ViewResult>(result);
-            Assert.AreEqual(person, ((ViewResult)result).Model);
+            Assert.That(((ViewResult)result).Model, Is.EqualTo(person));
         }
 
         [Test]
@@ -107,7 +107,7 @@ namespace MySecondMVC.Tests.Controllers
             var result = _controller.EditPerson(person);
 
             Assert.IsInstanceOf<ViewResult>(result);
-            Assert.AreEqual(person, ((ViewResult)result).Model);
+            Assert.That(((ViewResult)result).Model, Is.EqualTo(person));
         }
 
         [Test]
@@ -118,7 +118,7 @@ namespace MySecondMVC.Tests.Controllers
             var result = _controller.EditPerson(person);
 
             Assert.IsInstanceOf<RedirectToActionResult>(result);
-            Assert.AreEqual("Index", ((RedirectToActionResult)result).ActionName);
+            Assert.That(((RedirectToActionResult)result).ActionName, Is.EqualTo("Index"));
         }
 
         [Test]
@@ -130,7 +130,7 @@ namespace MySecondMVC.Tests.Controllers
             var result = _controller.DeletePerson(person.Id);
 
             Assert.IsInstanceOf<ViewResult>(result);
-            Assert.AreEqual(person, ((ViewResult)result).Model);
+            Assert.That(((ViewResult)result).Model, Is.EqualTo(person));
         }
 
         [Test]
@@ -154,7 +154,7 @@ namespace MySecondMVC.Tests.Controllers
             var result = _controller.DeleteConfirmed(person.Id);
 
             Assert.IsInstanceOf<RedirectToActionResult>(result);
-            Assert.AreEqual("DeleteConfirmation", ((RedirectToActionResult)result).ActionName);
+            Assert.That(((RedirectToActionResult)result).ActionName, Is.EqualTo("DeleteConfirmation"));
         }
 
         [Test]
@@ -176,8 +176,8 @@ namespace MySecondMVC.Tests.Controllers
             var result = _controller.GetMales() as ViewResult;
 
             Assert.IsNotNull(result);
-            Assert.AreEqual("FilteredList", result.ViewName);
-            Assert.AreEqual(males, result.Model);
+            Assert.That(result.ViewName, Is.EqualTo("FilteredList"));
+            Assert.That(result.Model, Is.EqualTo(males));
         }
 
         [Test]
@@ -189,8 +189,8 @@ namespace MySecondMVC.Tests.Controllers
             var result = _controller.GetOldest() as ViewResult;
 
             Assert.IsNotNull(result);
-            Assert.AreEqual("PersonDetails", result.ViewName);
-            Assert.AreEqual(person, result.Model);
+            Assert.That(result.ViewName, Is.EqualTo("PersonDetails"));
+            Assert.That(result.Model, Is.EqualTo(person));
         }
 
         [Test]
@@ -202,8 +202,8 @@ namespace MySecondMVC.Tests.Controllers
             var result = _controller.GetFullNames() as ViewResult;
 
             Assert.IsNotNull(result);
-            Assert.AreEqual("FullNames", result!.ViewName);
-            Assert.AreEqual(fullNames, result.Model);
+            Assert.That(result!.ViewName, Is.EqualTo("FullNames"));
+            Assert.That(result.Model, Is.EqualTo(fullNames));
         }
 
 

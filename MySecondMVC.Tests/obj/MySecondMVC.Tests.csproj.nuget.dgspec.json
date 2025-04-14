@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\minhn\\Downloads\\r2e-mvc-2\\MySecondMVC.Tests\\MySecondMVC.Tests.csproj": {}
+    "C:\\Users\\minhn\\Downloads\\r2e-unit_test\\MySecondMVC.Tests\\MySecondMVC.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\minhn\\Downloads\\r2e-mvc-2\\MySecondMVC.Tests\\MySecondMVC.Tests.csproj": {
+    "C:\\Users\\minhn\\Downloads\\r2e-unit_test\\MySecondMVC.Tests\\MySecondMVC.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minhn\\Downloads\\r2e-mvc-2\\MySecondMVC.Tests\\MySecondMVC.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\minhn\\Downloads\\r2e-unit_test\\MySecondMVC.Tests\\MySecondMVC.Tests.csproj",
         "projectName": "MySecondMVC.Tests",
-        "projectPath": "C:\\Users\\minhn\\Downloads\\r2e-mvc-2\\MySecondMVC.Tests\\MySecondMVC.Tests.csproj",
+        "projectPath": "C:\\Users\\minhn\\Downloads\\r2e-unit_test\\MySecondMVC.Tests\\MySecondMVC.Tests.csproj",
         "packagesPath": "C:\\Users\\minhn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minhn\\Downloads\\r2e-mvc-2\\MySecondMVC.Tests\\obj\\",
+        "outputPath": "C:\\Users\\minhn\\Downloads\\r2e-unit_test\\MySecondMVC.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\minhn\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\minhn\\Downloads\\r2e-mvc-2\\MySecondMVC\\MySecondMVC.csproj": {
-                "projectPath": "C:\\Users\\minhn\\Downloads\\r2e-mvc-2\\MySecondMVC\\MySecondMVC.csproj"
+              "C:\\Users\\minhn\\Downloads\\r2e-unit_test\\MySecondMVC\\MySecondMVC.csproj": {
+                "projectPath": "C:\\Users\\minhn\\Downloads\\r2e-unit_test\\MySecondMVC\\MySecondMVC.csproj"
               }
             }
           }
@@ -92,14 +92,14 @@
         }
       }
     },
-    "C:\\Users\\minhn\\Downloads\\r2e-mvc-2\\MySecondMVC\\MySecondMVC.csproj": {
+    "C:\\Users\\minhn\\Downloads\\r2e-unit_test\\MySecondMVC\\MySecondMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minhn\\Downloads\\r2e-mvc-2\\MySecondMVC\\MySecondMVC.csproj",
+        "projectUniqueName": "C:\\Users\\minhn\\Downloads\\r2e-unit_test\\MySecondMVC\\MySecondMVC.csproj",
         "projectName": "MySecondMVC",
-        "projectPath": "C:\\Users\\minhn\\Downloads\\r2e-mvc-2\\MySecondMVC\\MySecondMVC.csproj",
+        "projectPath": "C:\\Users\\minhn\\Downloads\\r2e-unit_test\\MySecondMVC\\MySecondMVC.csproj",
         "packagesPath": "C:\\Users\\minhn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minhn\\Downloads\\r2e-mvc-2\\MySecondMVC\\obj\\",
+        "outputPath": "C:\\Users\\minhn\\Downloads\\r2e-unit_test\\MySecondMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\minhn\\AppData\\Roaming\\NuGet\\NuGet.Config"

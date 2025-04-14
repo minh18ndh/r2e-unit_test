@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\minhn\\Downloads\\r2e-mvc-2\\MySecondMVC\\MySecondMVC.csproj",
+      "projectUniqueName": "C:\\Users\\minhn\\Downloads\\r2e-unit_test\\MySecondMVC\\MySecondMVC.csproj",
       "projectName": "MySecondMVC",
-      "projectPath": "C:\\Users\\minhn\\Downloads\\r2e-mvc-2\\MySecondMVC\\MySecondMVC.csproj",
+      "projectPath": "C:\\Users\\minhn\\Downloads\\r2e-unit_test\\MySecondMVC\\MySecondMVC.csproj",
       "packagesPath": "C:\\Users\\minhn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\minhn\\Downloads\\r2e-mvc-2\\MySecondMVC\\obj\\",
+      "outputPath": "C:\\Users\\minhn\\Downloads\\r2e-unit_test\\MySecondMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\minhn\\AppData\\Roaming\\NuGet\\NuGet.Config"

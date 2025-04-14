@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YVtVA0mVoCE=",
+  "dgSpecHash": "ScSV1fznORY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\minhn\\Downloads\\r2e-mvc-2\\MySecondMVC.Tests\\MySecondMVC.Tests.csproj",
+  "projectFilePath": "C:\\Users\\minhn\\Downloads\\r2e-unit_test\\MySecondMVC.Tests\\MySecondMVC.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\minhn\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\minhn\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",

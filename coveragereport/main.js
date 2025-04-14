@@ -237,7 +237,7 @@ var assemblies = [
     "name": "MySecondMVC.Tests",
     "classes": [
       { "name": "MySecondMVC.Tests.Controllers.RookiesControllerTests", "rp": "MySecondMVC.Tests_RookiesControllerTests.html", "cl": 117, "ucl": 0, "cal": 117, "tl": 221, "cb": 1, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "MySecondMVC.Tests.Services.PersonServiceTests", "rp": "MySecondMVC.Tests_PersonServiceTests.html", "cl": 106, "ucl": 0, "cal": 106, "tl": 184, "cb": 5, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "MySecondMVC.Tests.Services.PersonServiceTests", "rp": "MySecondMVC.Tests_PersonServiceTests.html", "cl": 106, "ucl": 0, "cal": 106, "tl": 166, "cb": 5, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
 ];
 

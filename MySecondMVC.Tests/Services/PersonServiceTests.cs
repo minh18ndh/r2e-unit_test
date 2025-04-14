@@ -33,7 +33,7 @@ namespace MySecondMVC.Tests.Services
             var result = _service.GetMales();
 
             // Assert
-            Assert.AreEqual(1, result.Count);
+            Assert.That(result.Count, Is.EqualTo(1));
             Assert.IsTrue(result.All(p => p.Gender == Gender.Male));
         }
 
@@ -50,7 +50,7 @@ namespace MySecondMVC.Tests.Services
             var result = _service.GetOldest();
 
             Assert.IsNotNull(result);
-            Assert.AreEqual("Old", result.FirstName);
+            Assert.That(result.FirstName, Is.EqualTo("Old"));
         }
 
         [Test]
@@ -64,7 +64,7 @@ namespace MySecondMVC.Tests.Services
 
             var result = _service.GetFullNames();
 
-            Assert.AreEqual("Nguyen Minh", result.First());
+            Assert.That(result.First(), Is.EqualTo("Nguyen Minh"));
         }
 
         [Test]
@@ -79,8 +79,8 @@ namespace MySecondMVC.Tests.Services
 
             var result = _service.FilterByBirthYear(2000, "before");
 
-            Assert.AreEqual(1, result.Count);
-            Assert.AreEqual("Old", result[0].FirstName);
+            Assert.That(result.Count, Is.EqualTo(1));
+            Assert.That(result[0].FirstName, Is.EqualTo("Old"));
         }
 
         [Test]
@@ -102,8 +102,8 @@ namespace MySecondMVC.Tests.Services
 
             var result = _service.GetById(id);
 
-            Assert.IsNotNull(result);
-            Assert.AreEqual("Minh", result!.FirstName);
+            Assert.That(result, Is.Not.Null);
+            Assert.That(result!.FirstName, Is.EqualTo("Minh"));
         }
 
         [Test]
@@ -158,9 +158,9 @@ namespace MySecondMVC.Tests.Services
 
             var result = _service.GetPaged(2, 2); // page 2, pageSize 2 -> expect Person3 & Person4
 
-            Assert.AreEqual(2, result.Count);
-            Assert.AreEqual("Person3", result[0].FirstName);
-            Assert.AreEqual("Person4", result[1].FirstName);
+            Assert.That(result.Count, Is.EqualTo(2));
+            Assert.That(result[0].FirstName, Is.EqualTo("Person3"));
+            Assert.That(result[1].FirstName, Is.EqualTo("Person4"));
         }
     }
 }
