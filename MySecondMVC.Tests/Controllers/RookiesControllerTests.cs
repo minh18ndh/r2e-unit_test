@@ -44,6 +44,18 @@ namespace MySecondMVC.Tests.Controllers
         }
 
         [Test]
+        public void PersonDetails_ValidId_ReturnsViewWithPerson()
+        {
+            var person = GetDummyPerson();
+            _mockService.Setup(s => s.GetById(person.Id)).Returns(person);
+
+            var result = _controller.PersonDetails(person.Id);
+
+            Assert.IsInstanceOf<ViewResult>(result);
+            Assert.That(((ViewResult)result).Model, Is.EqualTo(person));
+        }
+
+        [Test]
         public void PersonDetails_IdNotFound_ReturnsNotFound()
         {
             _mockService.Setup(s => s.GetById(It.IsAny<Guid>())).Returns((Person)null);

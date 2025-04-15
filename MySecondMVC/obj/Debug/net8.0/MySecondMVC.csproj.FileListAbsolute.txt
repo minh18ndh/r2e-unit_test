@@ -93,3 +93,6 @@ C:\Users\minhn\Downloads\r2e-unit_test\MySecondMVC\obj\Debug\net8.0\refint\MySec
 C:\Users\minhn\Downloads\r2e-unit_test\MySecondMVC\obj\Debug\net8.0\MySecondMVC.pdb
 C:\Users\minhn\Downloads\r2e-unit_test\MySecondMVC\obj\Debug\net8.0\MySecondMVC.genruntimeconfig.cache
 C:\Users\minhn\Downloads\r2e-unit_test\MySecondMVC\obj\Debug\net8.0\ref\MySecondMVC.dll
+C:\Users\minhn\Downloads\r2e-unit_test\MySecondMVC\bin\Debug\net8.0\MySecondMVC.staticwebassets.endpoints.json
+C:\Users\minhn\Downloads\r2e-unit_test\MySecondMVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\minhn\Downloads\r2e-unit_test\MySecondMVC\obj\Debug\net8.0\staticwebassets\msbuild.MySecondMVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

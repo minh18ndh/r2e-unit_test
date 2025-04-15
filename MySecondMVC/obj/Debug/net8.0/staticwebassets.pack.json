@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\minhn\\Downloads\\r2e-unit_test\\MySecondMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MySecondMVC.bundle.scp.css",
-      "PackagePath": "staticwebassets\\MySecondMVC.bundle.scp.css"
+      "PackagePath": "staticwebassets\\MySecondMVC.i9fe3tg7pv.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\minhn\\Downloads\\r2e-unit_test\\MySecondMVC\\wwwroot\\css\\site.css",
@@ -243,6 +243,10 @@
     {
       "Id": "C:\\Users\\minhn\\Downloads\\r2e-unit_test\\MySecondMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MySecondMVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MySecondMVC.Microsoft.AspNetCore.StaticWebAssets.props",

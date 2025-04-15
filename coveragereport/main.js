@@ -226,7 +226,7 @@ var assemblies = [
       { "name": "AspNetCoreGeneratedDocument.Views_Rookies_PersonDetails", "rp": "MySecondMVC_Views_Rookies_PersonDetails.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 24, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "AspNetCoreGeneratedDocument.Views_Shared_Error", "rp": "MySecondMVC_Views_Shared_Error.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 25, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "MySecondMVC.Controllers.HomeController", "rp": "MySecondMVC_HomeController.html", "cl": 0, "ucl": 13, "cal": 13, "tl": 31, "cb": 0, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "MySecondMVC.Controllers.RookiesController", "rp": "MySecondMVC_RookiesController.html", "cl": 54, "ucl": 18, "cal": 72, "tl": 131, "cb": 14, "tb": 22, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "MySecondMVC.Controllers.RookiesController", "rp": "MySecondMVC_RookiesController.html", "cl": 55, "ucl": 17, "cal": 72, "tl": 131, "cb": 15, "tb": 22, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "MySecondMVC.Models.ErrorViewModel", "rp": "MySecondMVC_ErrorViewModel.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 8, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "MySecondMVC.Models.Person", "rp": "MySecondMVC_Person.html", "cl": 10, "ucl": 0, "cal": 10, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "MySecondMVC.Repositories.PersonRepository", "rp": "MySecondMVC_PersonRepository.html", "cl": 0, "ucl": 37, "cal": 37, "tl": 61, "cb": 0, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -236,7 +236,7 @@ var assemblies = [
   {
     "name": "MySecondMVC.Tests",
     "classes": [
-      { "name": "MySecondMVC.Tests.Controllers.RookiesControllerTests", "rp": "MySecondMVC.Tests_RookiesControllerTests.html", "cl": 117, "ucl": 0, "cal": 117, "tl": 221, "cb": 1, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "MySecondMVC.Tests.Controllers.RookiesControllerTests", "rp": "MySecondMVC.Tests_RookiesControllerTests.html", "cl": 124, "ucl": 0, "cal": 124, "tl": 233, "cb": 1, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "MySecondMVC.Tests.Services.PersonServiceTests", "rp": "MySecondMVC.Tests_PersonServiceTests.html", "cl": 106, "ucl": 0, "cal": 106, "tl": 166, "cb": 5, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
 ];

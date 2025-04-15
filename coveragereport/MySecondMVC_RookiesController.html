@@ -36,16 +36,16 @@
 <div class="card">
 <div class="card-header">Line coverage</div>
 <div class="card-body">
-<div class="large cardpercentagebar cardpercentagebar25">75%</div>
+<div class="large cardpercentagebar cardpercentagebar24">76%</div>
 <div class="table">
 <table>
 <tr>
 <th>Covered lines:</th>
-<td class="limit-width right" title="54">54</td>
+<td class="limit-width right" title="55">55</td>
 </tr>
 <tr>
 <th>Uncovered lines:</th>
-<td class="limit-width right" title="18">18</td>
+<td class="limit-width right" title="17">17</td>
 </tr>
 <tr>
 <th>Coverable lines:</th>
@@ -57,7 +57,7 @@
 </tr>
 <tr>
 <th>Line coverage:</th>
-<td class="limit-width right" title="54 of 72">75%</td>
+<td class="limit-width right" title="55 of 72">76.3%</td>
 </tr>
 </table>
 </div>
@@ -66,12 +66,12 @@
 <div class="card">
 <div class="card-header">Branch coverage</div>
 <div class="card-body">
-<div class="large cardpercentagebar cardpercentagebar36">63%</div>
+<div class="large cardpercentagebar cardpercentagebar32">68%</div>
 <div class="table">
 <table>
 <tr>
 <th>Covered branches:</th>
-<td class="limit-width right" title="14">14</td>
+<td class="limit-width right" title="15">15</td>
 </tr>
 <tr>
 <th>Total branches:</th>
@@ -79,7 +79,7 @@
 </tr>
 <tr>
 <th>Branch coverage:</th>
-<td class="limit-width right" title="14 of 22">63.6%</td>
+<td class="limit-width right" title="15 of 22">68.1%</td>
 </tr>
 </table>
 </div>
@@ -109,7 +109,7 @@
 <tbody>
 <tr><td title=".ctor(MySecondMVC.Services.IPersonService)"><a href="#file0_line12" class="navigatetohash">.ctor(...)</a></td><td>100%</td><td>1</td><td>1</td><td>100%</td></tr>
 <tr><td title="Index(int)"><a href="#file0_line19" class="navigatetohash">Index(...)</a></td><td>50%</td><td>6</td><td>6</td><td>100%</td></tr>
-<tr><td title="PersonDetails(System.Guid)"><a href="#file0_line33" class="navigatetohash">PersonDetails(...)</a></td><td>50%</td><td>2</td><td>2</td><td>80%</td></tr>
+<tr><td title="PersonDetails(System.Guid)"><a href="#file0_line33" class="navigatetohash">PersonDetails(...)</a></td><td>100%</td><td>2</td><td>2</td><td>100%</td></tr>
 <tr><td title="CreatePerson()"><a href="#file0_line41" class="navigatetohash">CreatePerson()</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
 <tr><td title="CreatePerson(MySecondMVC.Models.Person)"><a href="#file0_line47" class="navigatetohash">CreatePerson(...)</a></td><td>100%</td><td>2</td><td>2</td><td>100%</td></tr>
 <tr><td title="EditPerson(System.Guid)"><a href="#file0_line57" class="navigatetohash">EditPerson(...)</a></td><td>100%</td><td>2</td><td>2</td><td>100%</td></tr>
@@ -165,8 +165,8 @@
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line32"></a><code>32</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;IActionResult&nbsp;PersonDetails(Guid&nbsp;id)</code></td></tr>
 <tr class="coverableline" title="Covered (1 visits)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line33"></a><code>33</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
 <tr class="coverableline" title="Covered (1 visits)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line34"></a><code>34</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;person&nbsp;=&nbsp;_personService.GetById(id);</code></td></tr>
-<tr class="coverableline" title="Partially covered (1 visits, 1 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'orange'}}"><td class="orange">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line35"></a><code>35</code></td><td class="percentagebar percentagebar50"><i class="icon-fork"></i></td><td class="lightorange"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(person&nbsp;==&nbsp;null)&nbsp;return&nbsp;NotFound();</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line36"></a><code>36</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;View(person);</code></td></tr>
+<tr class="coverableline" title="Covered (1 visits, 2 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line35"></a><code>35</code></td><td class="percentagebar percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(person&nbsp;==&nbsp;null)&nbsp;return&nbsp;NotFound();</code></td></tr>
+<tr class="coverableline" title="Covered (1 visits)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line36"></a><code>36</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;View(person);</code></td></tr>
 <tr class="coverableline" title="Covered (1 visits)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line37"></a><code>37</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line38"></a><code>38</code></td><td></td><td class="lightgray"><code></code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line39"></a><code>39</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpGet]</code></td></tr>
@@ -265,13 +265,13 @@
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.4.5.0<br />14/04/2025 - 16:22:45<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.4.5.0<br />15/04/2025 - 20:21:11<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>
 <a href="#file0_line12" class="navigatetohash percentagebar percentagebar100" title="Line coverage: 100% - .ctor(MySecondMVC.Services.IPersonService)"><i class="icon-cube"></i>.ctor(MySecondMVC.Services.IPersonService)</a><br />
 <a href="#file0_line19" class="navigatetohash percentagebar percentagebar100" title="Line coverage: 100% - Index(int)"><i class="icon-cube"></i>Index(int)</a><br />
-<a href="#file0_line33" class="navigatetohash percentagebar percentagebar80" title="Line coverage: 80% - PersonDetails(System.Guid)"><i class="icon-cube"></i>PersonDetails(System.Guid)</a><br />
+<a href="#file0_line33" class="navigatetohash percentagebar percentagebar100" title="Line coverage: 100% - PersonDetails(System.Guid)"><i class="icon-cube"></i>PersonDetails(System.Guid)</a><br />
 <a href="#file0_line41" class="navigatetohash percentagebar percentagebar0" title="Line coverage: 0% - CreatePerson()"><i class="icon-cube"></i>CreatePerson()</a><br />
 <a href="#file0_line47" class="navigatetohash percentagebar percentagebar100" title="Line coverage: 100% - CreatePerson(MySecondMVC.Models.Person)"><i class="icon-cube"></i>CreatePerson(MySecondMVC.Models.Person)</a><br />
 <a href="#file0_line57" class="navigatetohash percentagebar percentagebar100" title="Line coverage: 100% - EditPerson(System.Guid)"><i class="icon-cube"></i>EditPerson(System.Guid)</a><br />
